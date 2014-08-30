@@ -31,6 +31,7 @@ gem 'puma', '~> 2.8.1'
 group :development, :test do
   gem 'sqlite3', '~> 1.3.9'
 
+  gem 'rspec-rails', '~> 2.14.2'
   gem 'factory_girl_rails', '~> 4.4.1'
   gem 'faker', '~> 1.3.0'
   gem 'database_cleaner', '~> 1.2.0'
