@@ -28,9 +28,11 @@ gem 'jbuilder', '~> 1.2'
 # Use Puma as the webserver
 gem 'puma', '~> 2.8.1'
 
+# Use Slim for templating
+gem 'slim-rails', '~> 2.1.5'
+
 group :development, :test do
   gem 'sqlite3', '~> 1.3.9'
-
   gem 'rspec-rails', '~> 2.14.2'
   gem 'factory_girl_rails', '~> 4.4.1'
   gem 'faker', '~> 1.3.0'
