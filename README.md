@@ -9,7 +9,7 @@ This is my own Rails setup, so I do not care if you prefer HAML to Slim or LESS 
 - Ruby version: 2.1.2
 - Rails version: 4.1.1
 - Templating language: [slim](https://slim-lang.com)
-- Stylesheet language: SASS
+- Stylesheet language: SCSS
 - Development database: sqlite3
 - Production database: Postgresql
 - Server: Puma
@@ -38,5 +38,3 @@ end
 ```
 
 After running `bundle install` and `rails s` you should be able to navigate to `localhost:3000/` and see the *Hello, World!* message.
-
-*Note: You may also want to tweak the database.yml as you see fit.*
